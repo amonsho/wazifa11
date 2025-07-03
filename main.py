@@ -101,7 +101,11 @@
 # Чавоб:
 # with open('text8.txt', 'r') as myfile:
 #     txt=myfile.read()
-#nafamidm
+#     a=txt.replace('bad','good')
+
+# with open('text8.txt', 'w') as myfile:
+#     myfile.write(a)
+
 
 
 
@@ -113,5 +117,8 @@
 # Чавоб:
 # with open('text9.txt', 'r') as myfile:
 #     lines=myfile.readlines()
+#     for i in lines:
+#         if i=='\n':
+#             lines.remove(i)
 # with open('text9_clean.txt', 'w') as myfile2:
-#nafamidm
+#     myfile2.writelines(lines)
